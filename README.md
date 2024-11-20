@@ -1,33 +1,36 @@
 
-    #Read Me Generator
-
+    # Read Me Generator
     
     ## Description
-    This is an app that allows users to quickly generate a read me file.
+    A quick way to generate a read me file for your application.
     
     ## Table of Contents
-    - [Installation](#installation)
-    - [License](#license)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [Test](#test)
-    - [Github Username](#username)
-    - [Questions](#questions)
+    - [Installation](##installation)
+    - [License](##license)
+    - [Instructions](##instructions)
+    - [Usage](##usage)
+    - [Contributing](##contributing)
+    - [Test](##test)
+    - [Github Username](##username)
+    - [Questions](##questions)
 
     ## Installation
-    Install the inquirer and colors packages via npm.  Then run the index.js to initiate prompts, from inquirer for providing information on what wshoudl be in the READ ME file.
+    We need to install the colors and inquirer npm packages.  Then just run the application in visual studio via node index.js.
 
     ## License
-    ![License Badge](https://img.shields.io/badge/license-MS--PL-blue.svg)
+    ![License Badge](https://img.shields.io/badge/license-MIT-yellow.svg)
+
+    ## Instructions
+    Run the node index.js, then answer a series of prompts, and then review the results in your new README.md file.
 
     ## Usage
-    Any developer or product owner can utilize this to create READ ME files for applications or software.
+    Any software developer or product owner who wants to create a new read me file.
 
     ## Contributing
-    Users can reach out via the questions section that has my email.  They can report anything that they would like updated and I'll be happy to add new questions for the prompt or additional formatting for the existing read me files.
+    They can email me directly at daniel.farmer3@gmail.com and include a subject of "Read Me Generator", along with all of the items that would like updated.
 
     ## Test
-    Install the app, make sure it creates a READ ME file after answering all of the prompts, and make sure they don't see any errors.
+    Run the index.js file via node, answer all prompts, make sure they get a success message, and the read me file is generated.
 
     ## Github Username
     [farmda31](https://github.com/farmda31)
