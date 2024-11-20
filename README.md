@@ -1,36 +1,42 @@
 
-    #Read Me Generator
-
+    # Read Me Generator
     
     ## Description
-    This is an app that allows users to quickly generate a read me file.
+    Creates read me files.
     
     ## Table of Contents
-    - [Installation](#installation)
-    - [License](#license)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [Test](#test)
-    - [Github Username](#username)
-    - [Questions](#questions)
+    - [Installation](##installation)
+    - [License](##license)
+    - [Instructions](##instructions)
+    - [Usage](##usage)
+    - [Contributing](##contributing)
+    - [Test](##test)
+    - [Github Username](##username)
+    - [Questions](##questions)
 
     ## Installation
-    Install the inquirer and colors packages via npm.  Then run the index.js to initiate prompts, from inquirer for providing information on what wshoudl be in the READ ME file.
+    install inquirer and colors npm packages
 
     ## License
-    ![License Badge](https://img.shields.io/badge/license-MS--PL-blue.svg)
+    ![License Badge](https://img.shields.io/badge/license-MIT-yellow.svg)
+
+    ## Instructions
+    initiate via node index.js and then answer questions.
 
     ## Usage
-    Any developer or product owner can utilize this to create READ ME files for applications or software.
+    A developer or product owner
 
     ## Contributing
-    Users can reach out via the questions section that has my email.  They can report anything that they would like updated and I'll be happy to add new questions for the prompt or additional formatting for the existing read me files.
+    Email at the questions link.
 
     ## Test
-    Install the app, make sure it creates a READ ME file after answering all of the prompts, and make sure they don't see any errors.
+    Go through and enter all prompts, look for the success message.
 
     ## Github Username
     [farmda31](https://github.com/farmda31)
 
     ## Questions
     You can reach me via email at daniel.farmer3@gmail.com
+
+    ## Walkthrough
+    The walk through video is located at (./Read_Me_Generator.mp4)
