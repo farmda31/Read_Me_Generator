@@ -37,3 +37,6 @@
 
     ## Questions
     You can reach me via email at daniel.farmer3@gmail.com
+
+    ## Walkthrough
+    The walk through video is located at (./Read_Me_Generator.mp4)
