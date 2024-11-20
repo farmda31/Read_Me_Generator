@@ -2,7 +2,7 @@
     # Read Me Generator
     
     ## Description
-    A quick way to generate a read me file for your application.
+    Creates read me files.
     
     ## Table of Contents
     - [Installation](##installation)
@@ -15,22 +15,22 @@
     - [Questions](##questions)
 
     ## Installation
-    We need to install the colors and inquirer npm packages.  Then just run the application in visual studio via node index.js.
+    install inquirer and colors npm packages
 
     ## License
     ![License Badge](https://img.shields.io/badge/license-MIT-yellow.svg)
 
     ## Instructions
-    Run the node index.js, then answer a series of prompts, and then review the results in your new README.md file.
+    initiate via node index.js and then answer questions.
 
     ## Usage
-    Any software developer or product owner who wants to create a new read me file.
+    A developer or product owner
 
     ## Contributing
-    They can email me directly at daniel.farmer3@gmail.com and include a subject of "Read Me Generator", along with all of the items that would like updated.
+    Email at the questions link.
 
     ## Test
-    Run the index.js file via node, answer all prompts, make sure they get a success message, and the read me file is generated.
+    Go through and enter all prompts, look for the success message.
 
     ## Github Username
     [farmda31](https://github.com/farmda31)
