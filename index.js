@@ -5,11 +5,11 @@ import fs from "fs";
 
 // Declaring the licenseBadges variable.  Gives address for displaying a badge.
 const licensesBadges = {
-    'MS-PL': 'https://img.shields.io/badge/license-MS--PL-blue.svg',
-    'MPL-2.0': 'https://img.shields.io/badge/license-MPL--2.0-brightgreen.svg',
+    'MS-PL': 'https://img.shields.io/badge/license-MS_PL-blue.svg',
+    'MPL-2.0': 'https://img.shields.io/badge/license-MPL_2.0-brightgreen.svg',
     'MIT' : 'https://img.shields.io/badge/license-MIT-yellow.svg',
-    'OSL-3.0' : 'https://img.shields.io/badge/license-OSL--3.0-lightgrey.svg',
-    'AFL-3.0' : 'https://img.shields.io/badge/license-AFL--3.0-orange.svg'
+    'OSL-3.0' : 'https://img.shields.io/badge/license-OSL_3.0-lightgrey.svg',
+    'AFL-3.0' : 'https://img.shields.io/badge/license-AFL_3.0-orange.svg'
 };
 
 // NOTE: Create an array of questions for user input
@@ -31,6 +31,10 @@ inquirer.prompt([
         name: "installation",
         type: "input",
         message: colors.bgMagenta("What are the instructions for installing your application?"),  
+    },{
+        name: "instructions",
+        type: "input",
+        message: colors.bgMagenta("What are the instructions for using this application?"), 
     },
     {
         name: "usage",
@@ -75,28 +79,32 @@ questions();
 
 // NOTE: rendering the information that the user provided from the questions & prompt
 // Creating an Mark Down file with the badge displayed
-function renderMD({title, description, installation, usage, license, contributing, test, username, questions}) {
+function renderMD({title, description, installation, usage, license, instructions, contributing, test, username, questions}) {
     const badgeUrl = licensesBadges[license] || '';
     return `
-    #${title}
+    # ${title}
     
     ## Description
     ${description}
     
     ## Table of Contents
-    - [Installation](#installation)
-    - [License](#license)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [Test](#test)
-    - [Github Username](#username)
-    - [Questions](#questions)
+    - [Installation](##installation)
+    - [License](##license)
+    - [Instructions](##instructions)
+    - [Usage](##usage)
+    - [Contributing](##contributing)
+    - [Test](##test)
+    - [Github Username](##username)
+    - [Questions](##questions)
 
     ## Installation
     ${installation}
 
     ## License
     ![License Badge](${badgeUrl})
+
+    ## Instructions
+    ${instructions}
 
     ## Usage
     ${usage}
